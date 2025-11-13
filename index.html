@@ -43,7 +43,10 @@
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     
     <!-- CSS -->
-    <link rel="stylesheet" href="script.css">
+   <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="style.css"></noscript>
+ <!-- JavaScript -->
+    <script src="main.js" defer></script>
 </head>
 <body>
     <!-- Dark Mode Toggle -->
@@ -701,10 +704,10 @@ I specialize in programmatic ads, SEO, and social media marketing, helping brand
         <i data-lucide="chevron-up"></i>
     </button>
 
-    <!-- JavaScript -->
-    <script src="main.js"></script>
+   
 </body>
 </html>
+
 
 
 
